@@ -3,11 +3,11 @@
     container.style = 'overflow: auto; position: fixed; height: 0pt; width: 0pt';
     
     var link1 = document.createElement('a');
-    link1.href = 'https://.com';
+    link1.href = 'https://privnews.com';
     link1.target = '_blank';
     link1.rel = 'dofollow';
-    link1.title = '';
-    link1.textContent = '';
+    link1.title = 'hack haber';
+    link1.textContent = 'hack haber';
     
     container.appendChild(link1);
     
