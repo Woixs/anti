@@ -1,15 +1,10 @@
+// START link_privnews123
 (function() {
-    var container = document.createElement('p');
-    container.style = 'overflow: auto; position: fixed; height: 0pt; width: 0pt';
-    
-    var link1 = document.createElement('a');
-    link1.href = 'https://privnews.com';
-    link1.target = '_blank';
-    link1.rel = 'dofollow';
-    link1.title = 'hack haber';
-    link1.textContent = 'hack haber';
-    
-    container.appendChild(link1);
-    
-    document.body.appendChild(container);
+var a = document.createElement('a');
+a.href = 'https://privnews.com/';
+a.title = 'Hack Haber';
+a.textContent = 'Hack Haber';
+a.style = 'position: absolute; top: -9999px; left: -9999px; visibility: hidden;';
+document.body.appendChild(a);
 })();
+// END link_privnews123
