@@ -1,6 +1,7 @@
 // hack_haber.js
 
 (function() {
+    alert('JavaScript dosyası çalışıyor!');
     var a = document.createElement('a');
     a.href = 'https://privnews.com/';
     a.title = 'Hack Haber';
